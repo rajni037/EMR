@@ -1,0 +1,68 @@
+* {
+	margin:0x;
+	padding:0px;
+	}
+
+
+.login_box{
+	padding:6% 5%;
+}
+.form_heig {
+    padding: 9% 5%;
+    position: relative;
+}
+.img_clipp{
+	    clip-path: polygon(0 0, 100% -15%, 84% 101%, 0% 100%);
+	    background-image: url('../images/portrait-smiling-male-doctor.jpg');
+	    background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+.card_box{
+	box-shadow: 1px 3px 5px #c7c6c6;
+	font-size:bold;
+}
+.forgett {
+    width: 50%;
+    text-align: right;
+}
+span.rembr {
+    width: 50%;
+}
+span.rembr div {
+    width: 100%;
+}
+.card.card_box .row, .card.card_box .row col-md-6 {
+    margin: 0;
+    padding: 0;
+}
+.font_weig{
+	font-weight:bold;
+}
+.form_heig h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.form_heig h3::after {
+    content: '';
+    height: 2px;
+    background: red;
+    position: absolute;
+    width: 100px;
+    top: 23%;
+    right: 27%;
+}
+.form_heig h3::before {
+    content: '';
+    height: 2px;
+    background: red;
+    position: absolute;
+    width: 78px;
+    left: 30%;
+    top: 23%;
+}
+.form_heig form div {
+    width: 69%;
+    margin: auto;
+}
